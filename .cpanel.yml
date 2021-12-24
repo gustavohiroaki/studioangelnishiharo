@@ -2,6 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/angeln60/test.angelnishiharo.com
-    - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp -R css $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
+    - /usr/local/bin/composer install
