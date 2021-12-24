@@ -1,0 +1,72 @@
+/* sm */
+@media (max-width: 576px) {
+    nav {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+}
+
+/* md */
+@media (max-width: 768px) {
+    .hero {
+        background-position-x: -120px !important;
+    }
+
+    .hero-content > h2 {
+        margin: 0 auto;
+    }
+}
+
+/* lg */
+@media (max-width: 992px) {
+}
+
+/* xl */
+@media (max-width: 1200px) {
+    .hero {
+        background-position-x: -90px;
+    }
+
+    .hero-content {
+        background-color: rgba(255, 255, 255, 0.4);
+        padding: 15px;
+        border-radius: 7.5px;
+        position: static !important;
+    }
+
+    .hero-content > h2 {
+        text-align: center;
+    }
+}
+
+/* default */
+.hero {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+}
+
+.hero-content {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    right: 15%;
+}
+
+.hero-content > h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.hero-content > button {
+    width: 50%;
+}
