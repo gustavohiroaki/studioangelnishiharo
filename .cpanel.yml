@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/angeln60/laravelexample
-    - /usr/local/bin/composer install
+    - composer install
     - /bin/cp -R * $DEPLOYPATH
