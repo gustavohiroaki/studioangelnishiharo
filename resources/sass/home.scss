@@ -9,10 +9,10 @@
 @media (max-width: 768px) {
     .hero {
         background-position-x: -120px !important;
-    }
 
-    .hero-content > h2 {
-        margin: 0 auto;
+        h2 {
+            margin: 0 auto;
+        }
     }
 }
 
@@ -31,10 +31,10 @@
         padding: 15px;
         border-radius: 7.5px;
         position: static !important;
-    }
 
-    .hero-content > h2 {
-        text-align: center;
+        h2 {
+            text-align: center;
+        }
     }
 }
 
@@ -60,13 +60,14 @@
     position: absolute;
     top: 40%;
     right: 15%;
-}
 
-.hero-content > h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-}
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        font-family: "Sawarabi Mincho", sans-serif;
+    }
 
-.hero-content > button {
-    width: 50%;
+    button {
+        width: 50%;
+    }
 }
