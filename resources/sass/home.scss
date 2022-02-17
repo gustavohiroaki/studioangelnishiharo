@@ -1,31 +1,5 @@
-/* sm */
-@media (max-width: 576px) {
-    nav {
-        background-color: rgba(255, 255, 255, 0.15);
-    }
-}
-
-/* md */
-@media (max-width: 768px) {
-    .hero {
-        background-position-x: -120px !important;
-
-        h2 {
-            margin: 0 auto;
-        }
-    }
-}
-
-/* lg */
-@media (max-width: 992px) {
-}
-
 /* xl */
 @media (max-width: 1200px) {
-    .hero {
-        background-position-x: -90px;
-    }
-
     .hero-content {
         background-color: rgba(255, 255, 255, 0.4);
         padding: 15px;
@@ -38,9 +12,41 @@
     }
 }
 
+/* lg */
+@media (max-width: 992px) {
+}
+
+/* md */
+@media (max-width: 768px) {
+    #angelica {
+        left: -55px;
+    }
+    .hero {
+        h2 {
+            margin: 0 auto;
+        }
+    }
+}
+
+/* sm */
+@media (max-width: 576px) {
+    nav {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+}
+
+#angelica {
+    position: absolute;
+    width: auto;
+    height: 90%;
+    bottom: 0px;
+    z-index: 5;
+}
+
 /* default */
 .hero {
-    background-image: url("../img/background.jpg");
+    position: relative;
+    background-image: url("../img/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -57,9 +63,10 @@
 
 .hero-content {
     display: flex;
-    position: absolute;
+    position: fixed;
     top: 40%;
     right: 15%;
+    z-index: 10;
 
     h2 {
         font-size: 2.5rem;
