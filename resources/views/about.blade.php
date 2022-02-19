@@ -3,68 +3,61 @@
 @section('title', 'Sobre')
 
 @section('content')
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="/assets/img/miniature/Cilios2.png" class="d-block w-100" alt="..." />
+    <img id="background-logo" src="/assets/img/logos/transparent-logo.png" alt="Transparent Logo Studio Angel Nishiharo">
+    <section id="presentation-area">
+        <div id="presentation-text">
+            <h2>Sunda Bobra</h2>
+            <p>Todos os nossos serviços são feitos com muito carinho para atender suas necessidades ❤️</p>
+
+            <button>Contate-nos</button>
+        </div>
+        <div id="presentation-image">
+            <img src="/assets/img/landing/presentation-img.png" alt="Studio Angel Nishiharo">
+        </div>
+    </section>
+
+    <section id="all-services">
+        <div id="lash" class="service">
+            <div class="service-image">
+                <img src="/assets/img/landing/presentation-lashes.png" alt="Fazendo os cílios">
             </div>
-            <div class="carousel-item">
-                <img src="/assets/img/miniature/Studio.png" class="d-block w-100" alt="..." />
+            <div class="service-text">
+                <h3>Cílios</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend euismod.
+                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus
+                    tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus, vitae
+                    scelerisque sapien sagittis at.
+                </p>
             </div>
-            <div class="carousel-item">
-                <img src="https://picsum.photos/700/300" class="d-block w-100" alt="..." />
+        </div>
+        <div id="brow" class="service">
+            <div class="service-image">
+                <img src="/assets/img/landing/presentation-brows.png" alt="Fazendo a sobrancelha">
+            </div>
+            <div class="service-text">
+                <h3>Sobrancelha</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend euismod.
+                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus
+                    tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus, vitae
+                    scelerisque sapien sagittis at.
+                </p>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <div class="row">
-        <h2 class="text-center service-text">Conheça melhor nossos serviços</h2>
-    </div>
-
-    <div class="row about-section image-text">
-        <div class="col image"><img src="https://picsum.photos/400/300" alt="..."></div>
-        <div class="col text">
-            <h2>Lorem Ipsum</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus
-                eleifend euismod. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                Phasellus tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus, vitae
-                scelerisque sapien sagittis at.
-            </p>
+        <div id="make" class="service">
+            <div class="service-image">
+                <img src="/assets/img/landing/presentation-makes.png" alt="Fazendo a maquiagem">
+            </div>
+            <div class="service-text">
+                <h3>Maquiagem</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend euismod.
+                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus
+                    tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus, vitae
+                    scelerisque sapien sagittis at.
+                </p>
+            </div>
         </div>
-    </div>
-
-    <div class="row about-section text-image">
-        <div class="col text">
-            <h2>Lorem Ipsum</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus
-                eleifend euismod. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                Phasellus tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus, vitae
-                scelerisque sapien sagittis at.
-            </p>
-        </div>
-        <div class="col image"><img src="https://picsum.photos/400/300" alt="..."></div>
-    </div>
-
-    <div class="row about-section image-text">
-        <div class="col image"><img src="https://picsum.photos/400/300" alt="..."></div>
-        <div class="col text">
-            <h2>Lorem Ipsum</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus
-                eleifend euismod. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                Phasellus tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus, vitae
-                scelerisque sapien sagittis at.
-            </p>
-        </div>
-    </div>
+    </section>
 @endsection

@@ -14,7 +14,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container d-flex justify-content-between">
             <a class="navbar-brand" href="#">
-                <img src="/assets/img/logo.png" alt="" />
+                <img src="/assets/img/logos/logo.png" alt="" />
             </a>
             <div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
