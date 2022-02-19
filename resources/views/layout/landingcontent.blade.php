@@ -6,12 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/assets/css/main.min.css" />
-    <link rel="stylesheet" href="/assets/css/home.min.css" />
-    <title>Studio Angel Nishiharo</title>
+    <link rel="stylesheet" href="/assets/css/@yield('css').min.css" />
+    <title>@yield('title')</title>
 </head>
 
-<body class="container hero">
-    <img id="angelica" src="/assets/img/angelica.png" alt="Angélica Nishiharo">
+<body class="container">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container d-flex justify-content-between">
             <a class="navbar-brand" href="#">
@@ -25,10 +24,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                            <a class="nav-link" aria-current="page" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/sobre">Sobre</a>
+                            <a class="nav-link active" href="/sobre">Sobre</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Serviços</a>
@@ -41,14 +40,7 @@
             </div>
         </div>
     </nav>
-
-    <div class="hero-container">
-        <div class="hero-content d-flex flex-column align-items-center">
-            <h2>Beleza na medida certa</h2>
-            <button type="button">Conheça Mais</button>
-        </div>
-    </div>
-
+    @yield('content')
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
