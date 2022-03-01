@@ -11,7 +11,7 @@ function showed() {
 }
 
 function showedCookieExists() {
-    var cname = " " + "showed" + "=";
+    var cname = "showed" + "=";
     var cookies = document.cookie;
 
     return cookies.indexOf(cname) !== -1;
