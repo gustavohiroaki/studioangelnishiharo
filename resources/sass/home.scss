@@ -35,8 +35,59 @@
     }
 }
 
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 nav {
     z-index: 10;
+}
+
+#splash {
+    z-index: 20;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #22254f;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    display: none;
+    img {
+        width: 20vh;
+        height: auto;
+        animation: rotate 3s normal;
+    }
+
+    .studio-name {
+        position: absolute;
+        color: #ceabc1;
+        transition: ease-in 1s;
+
+        .name-fragment {
+            transition: ease-in 1s;
+            position: relative;
+            display: inline-block;
+            bottom: -150px;
+            opacity: 0;
+        }
+        .name-fragment.active {
+            bottom: -120px;
+            opacity: 1;
+        }
+    }
+}
+#splash.active {
+    display: flex;
 }
 
 #angelica {

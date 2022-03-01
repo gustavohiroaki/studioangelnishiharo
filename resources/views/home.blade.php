@@ -11,6 +11,14 @@
 </head>
 
 <body class="container hero">
+    <div id="splash">
+        <img src="/assets/img/logos/circle-logo.png" alt="">
+        <h3 class="studio-name">
+            <span class="name-fragment">Studio</span>
+            <span class="name-fragment">Angel</span>
+            <span class="name-fragment">Nishiharo</span>
+        </h3>
+    </div>
     <img id="angelica" src="/assets/img/angelica.png" alt="Angélica Nishiharo">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container d-flex justify-content-between">
@@ -52,6 +60,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
+    <script src="/assets/js/splash.js"></script>
 </body>
 
 </html>
