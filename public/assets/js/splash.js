@@ -4,7 +4,7 @@ let studioName = document.querySelector(".studio-name");
 let nameFragment = document.querySelectorAll(".name-fragment");
 
 function showed() {
-    var data = new Date();
+    var date = new Date();
     data.setMinutes(data.getMinutes() + 10);
     data = data.toGMTString();
     document.cookie = "showed=true" + "; expires=" + data + "; path=/";
