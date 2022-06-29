@@ -5,9 +5,9 @@ let nameFragment = document.querySelectorAll(".name-fragment");
 
 function showed() {
     var date = new Date();
-    data.setMinutes(data.getMinutes() + 10);
-    data = data.toGMTString();
-    document.cookie = "showed=true" + "; expires=" + data + "; path=/";
+    date.setMinutes(date.getMinutes() + 60);
+    date = date.toGMTString();
+    document.cookie = "showed=true" + "; expires=" + date + "; path=/";
 }
 
 function showedCookieExists() {
