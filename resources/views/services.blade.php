@@ -1,5 +1,5 @@
 @extends('layout.landingcontent')
-@section('css', 'about')
+@section('css', 'services')
 @section('title', 'Sobre')
 
 @section('content')
