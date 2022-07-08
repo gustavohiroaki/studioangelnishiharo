@@ -12,14 +12,14 @@
             <button>Contate-nos</button>
         </div>
         <div id="presentation-image">
-            <img src="/assets/img/landing/presentation-img.png" alt="Studio Angel Nishiharo">
+            <img src="/assets/img/landing/service-presentation-image.png" alt="Studio Angel Nishiharo">
         </div>
     </section>
 
     <section id="all-services">
         <div id="lash" class="service">
             <div class="service-image">
-                <img src="/assets/img/landing/presentation-lashes.png" alt="Fazendo os cílios">
+                <img src="/assets/img/landing/service-presentation-lashes.png" alt="Fazendo os cílios">
             </div>
             <div class="service-text">
                 <h3>Cílios</h3>
@@ -33,7 +33,7 @@
         </div>
         <div id="brow" class="service">
             <div class="service-image">
-                <img src="/assets/img/landing/presentation-brows.png" alt="Fazendo a sobrancelha">
+                <img src="/assets/img/landing/service-presentation-brows.png" alt="Fazendo a sobrancelha">
             </div>
             <div class="service-text">
                 <h3>Sobrancelha</h3>
@@ -47,7 +47,7 @@
         </div>
         <div id="make" class="service">
             <div class="service-image">
-                <img src="/assets/img/landing/presentation-makes.png" alt="Fazendo a maquiagem">
+                <img src="/assets/img/landing/service-presentation-makes.png" alt="Fazendo a maquiagem">
             </div>
             <div class="service-text">
                 <h3>Maquiagem</h3>

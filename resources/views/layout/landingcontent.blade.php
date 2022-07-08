@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/assets/css/main.min.css" />
     <link rel="stylesheet" href="/assets/css/@yield('css').min.css" />
+    <link rel="stylesheet" href="/assets/css/footer.min.css" />
     <title>@yield('title')</title>
 </head>
 
@@ -28,10 +29,10 @@
                                 <a class="nav-link" aria-current="page" href="/">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="/services">Serviços</a>
+                                <a class="nav-link" href="/services">Serviços</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Studio</a>
+                                <a class="nav-link" href="/studio">Studio</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contato</a>
