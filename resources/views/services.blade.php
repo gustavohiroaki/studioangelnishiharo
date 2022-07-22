@@ -21,7 +21,7 @@
             <div class="service-image">
                 <img src="/assets/img/landing/service-presentation-lashes.png" alt="Fazendo os cílios">
             </div>
-            <div class="service-text">
+            <div class="service-content">
                 <h3>Cílios</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend euismod.
@@ -29,13 +29,14 @@
                     tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus, vitae
                     scelerisque sapien sagittis at.
                 </p>
+                <a class="button" href="#">Catálogo de Cílios</a>
             </div>
         </div>
         <div id="brow" class="service">
             <div class="service-image">
                 <img src="/assets/img/landing/service-presentation-brows.png" alt="Fazendo a sobrancelha">
             </div>
-            <div class="service-text">
+            <div class="service-content">
                 <h3>Sobrancelha</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend euismod.
@@ -43,13 +44,14 @@
                     tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus, vitae
                     scelerisque sapien sagittis at.
                 </p>
+                <a class="button" href="#">Catálogo de Sobrancelha</a>
             </div>
         </div>
         <div id="make" class="service">
             <div class="service-image">
                 <img src="/assets/img/landing/service-presentation-makes.png" alt="Fazendo a maquiagem">
             </div>
-            <div class="service-text">
+            <div class="service-content">
                 <h3>Maquiagem</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend euismod.
@@ -57,6 +59,7 @@
                     tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus, vitae
                     scelerisque sapien sagittis at.
                 </p>
+                <a class="button" href="#">Catálogo de Maquiagem</a>
             </div>
         </div>
     </section>

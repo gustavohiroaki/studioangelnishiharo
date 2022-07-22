@@ -1,1 +1,1 @@
-button{border:0;background-color:#22254f;color:#ceabc1;padding:10px 75px;border-radius:15px;box-shadow:0px 4px 4px rgba(0,0,0,.25)}/*# sourceMappingURL=project.min.css.map */
+button,a.button{display:flex;justify-content:center;align-items:center;text-decoration:none;text-align:center;border:0;background-color:#22254f;color:#ceabc1;padding:10px 55px;border-radius:15px;box-shadow:0px 4px 4px rgba(0,0,0,.25)}/*# sourceMappingURL=project.min.css.map */
