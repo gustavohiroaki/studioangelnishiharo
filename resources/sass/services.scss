@@ -86,6 +86,9 @@
 
         #presentation-text {
             width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
             text-align: center;
 
             h2 {
@@ -131,7 +134,7 @@
                 }
             }
 
-            .service-text {
+            .service-content {
                 width: 100%;
 
                 p {
