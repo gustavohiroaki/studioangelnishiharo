@@ -16,6 +16,10 @@
 
     #presentation-text {
         width: 40%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
 
         h2 {
             margin-bottom: 2rem;
