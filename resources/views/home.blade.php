@@ -42,9 +42,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/studio">Studio</a>
                         </li>
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a class="nav-link" href="#">Contato</a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </div>
             </div>
