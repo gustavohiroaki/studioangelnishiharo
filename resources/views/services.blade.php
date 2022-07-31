@@ -21,7 +21,7 @@
             <div class="service-image">
                 <img src="/assets/img/landing/service-presentation-lashes.png" alt="Fazendo os cílios">
             </div>
-            <div class="service-content">
+            <div class="content-box">
                 <h3>Cílios</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend euismod.
@@ -33,21 +33,60 @@
             </div>
             <div class="overlay" id="overlay-lash">
                 <div class="overlay-content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cum ex! Temporibus accusantium
-                    reprehenderit voluptas ullam eaque ut tenetur tempore repellendus officia deserunt, et molestias
-                    possimus ab nisi maiores incidunt!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cum ex! Temporibus accusantium
-                    reprehenderit voluptas ullam eaque ut tenetur tempore repellendus officia deserunt, et molestias
-                    possimus ab nisi maiores incidunt!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cum ex! Temporibus accusantium
-                    reprehenderit voluptas ullam eaque ut tenetur tempore repellendus officia deserunt, et molestias
-                    possimus ab nisi maiores incidunt!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cum ex! Temporibus accusantium
-                    reprehenderit voluptas ullam eaque ut tenetur tempore repellendus officia deserunt, et molestias
-                    possimus ab nisi maiores incidunt!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cum ex! Temporibus accusantium
-                    reprehenderit voluptas ullam eaque ut tenetur tempore repellendus officia deserunt, et molestias
-                    possimus ab nisi maiores incidunt!
+                    <h2>Catálogo de Cílios</h2>
+                    <div class="overlay-product">
+                        <div class="overlay-product-image">
+                            <img src="/assets/img/landing/service-presentation-lashes.png" alt="Fazendo os cílios">
+                        </div>
+                        <div class="content-box">
+                            <h3>Cílios</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend
+                                euismod.
+                                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                Phasellus
+                                tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus,
+                                vitae
+                                scelerisque sapien sagittis at.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="overlay-product">
+                        <div class="overlay-product-image">
+                            <img src="/assets/img/landing/service-presentation-lashes.png" alt="Fazendo os cílios">
+                        </div>
+                        <div class="content-box">
+                            <h3>Cílios</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend
+                                euismod.
+                                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                Phasellus
+                                tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus,
+                                vitae
+                                scelerisque sapien sagittis at.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="overlay-product">
+                        <div class="overlay-product-image">
+                            <img src="/assets/img/landing/service-presentation-lashes.png" alt="Fazendo os cílios">
+                        </div>
+                        <div class="content-box">
+                            <h3>Cílios</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend
+                                euismod.
+                                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                Phasellus
+                                tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus,
+                                vitae
+                                scelerisque sapien sagittis at.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -55,7 +94,7 @@
             <div class="service-image">
                 <img src="/assets/img/landing/service-presentation-brows.png" alt="Fazendo a sobrancelha">
             </div>
-            <div class="service-content">
+            <div class="content-box">
                 <h3>Sobrancelha</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend euismod.
@@ -67,21 +106,60 @@
             </div>
             <div class="overlay" id="overlay-brow">
                 <div class="overlay-content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cum ex! Temporibus accusantium
-                    reprehenderit voluptas ullam eaque ut tenetur tempore repellendus officia deserunt, et molestias
-                    possimus ab nisi maiores incidunt!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cum ex! Temporibus accusantium
-                    reprehenderit voluptas ullam eaque ut tenetur tempore repellendus officia deserunt, et molestias
-                    possimus ab nisi maiores incidunt!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cum ex! Temporibus accusantium
-                    reprehenderit voluptas ullam eaque ut tenetur tempore repellendus officia deserunt, et molestias
-                    possimus ab nisi maiores incidunt!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cum ex! Temporibus accusantium
-                    reprehenderit voluptas ullam eaque ut tenetur tempore repellendus officia deserunt, et molestias
-                    possimus ab nisi maiores incidunt!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cum ex! Temporibus accusantium
-                    reprehenderit voluptas ullam eaque ut tenetur tempore repellendus officia deserunt, et molestias
-                    possimus ab nisi maiores incidunt!
+                    <h2>Catálogo de Cílios</h2>
+                    <div class="overlay-product">
+                        <div class="overlay-product-image">
+                            <img src="/assets/img/landing/service-presentation-lashes.png" alt="Fazendo os cílios">
+                        </div>
+                        <div class="content-box">
+                            <h3>Cílios</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend
+                                euismod.
+                                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                Phasellus
+                                tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus,
+                                vitae
+                                scelerisque sapien sagittis at.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="overlay-product">
+                        <div class="overlay-product-image">
+                            <img src="/assets/img/landing/service-presentation-lashes.png" alt="Fazendo os cílios">
+                        </div>
+                        <div class="content-box">
+                            <h3>Cílios</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend
+                                euismod.
+                                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                Phasellus
+                                tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus,
+                                vitae
+                                scelerisque sapien sagittis at.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="overlay-product">
+                        <div class="overlay-product-image">
+                            <img src="/assets/img/landing/service-presentation-lashes.png" alt="Fazendo os cílios">
+                        </div>
+                        <div class="content-box">
+                            <h3>Cílios</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend
+                                euismod.
+                                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                Phasellus
+                                tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus,
+                                vitae
+                                scelerisque sapien sagittis at.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -89,7 +167,7 @@
             <div class="service-image">
                 <img src="/assets/img/landing/service-presentation-makes.png" alt="Fazendo a maquiagem">
             </div>
-            <div class="service-content">
+            <div class="content-box">
                 <h3>Maquiagem</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend euismod.
@@ -101,21 +179,60 @@
             </div>
             <div class="overlay" id="overlay-make">
                 <div class="overlay-content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cum ex! Temporibus accusantium
-                    reprehenderit voluptas ullam eaque ut tenetur tempore repellendus officia deserunt, et molestias
-                    possimus ab nisi maiores incidunt!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cum ex! Temporibus accusantium
-                    reprehenderit voluptas ullam eaque ut tenetur tempore repellendus officia deserunt, et molestias
-                    possimus ab nisi maiores incidunt!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cum ex! Temporibus accusantium
-                    reprehenderit voluptas ullam eaque ut tenetur tempore repellendus officia deserunt, et molestias
-                    possimus ab nisi maiores incidunt!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cum ex! Temporibus accusantium
-                    reprehenderit voluptas ullam eaque ut tenetur tempore repellendus officia deserunt, et molestias
-                    possimus ab nisi maiores incidunt!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cum ex! Temporibus accusantium
-                    reprehenderit voluptas ullam eaque ut tenetur tempore repellendus officia deserunt, et molestias
-                    possimus ab nisi maiores incidunt!
+                    <h2>Catálogo de Cílios</h2>
+                    <div class="overlay-product">
+                        <div class="overlay-product-image">
+                            <img src="/assets/img/landing/service-presentation-lashes.png" alt="Fazendo os cílios">
+                        </div>
+                        <div class="content-box">
+                            <h3>Cílios</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend
+                                euismod.
+                                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                Phasellus
+                                tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus,
+                                vitae
+                                scelerisque sapien sagittis at.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="overlay-product">
+                        <div class="overlay-product-image">
+                            <img src="/assets/img/landing/service-presentation-lashes.png" alt="Fazendo os cílios">
+                        </div>
+                        <div class="content-box">
+                            <h3>Cílios</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend
+                                euismod.
+                                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                Phasellus
+                                tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus,
+                                vitae
+                                scelerisque sapien sagittis at.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="overlay-product">
+                        <div class="overlay-product-image">
+                            <img src="/assets/img/landing/service-presentation-lashes.png" alt="Fazendo os cílios">
+                        </div>
+                        <div class="content-box">
+                            <h3>Cílios</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend
+                                euismod.
+                                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                Phasellus
+                                tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus,
+                                vitae
+                                scelerisque sapien sagittis at.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

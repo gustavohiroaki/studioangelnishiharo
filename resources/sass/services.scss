@@ -52,34 +52,34 @@
         & + .service {
             margin-top: 3rem;
         }
-
-        .service-content {
-            background-color: rgba(255, 255, 255, 0.25);
-            border-radius: 25px;
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-
-            h3 {
-                text-align: center;
-            }
-
-            p {
-                padding: 30px;
-                border-top: 1px solid #ceabc1;
-                border-bottom: 1px solid #ceabc1;
-            }
-
-            .button {
-                width: 20rem;
-            }
-        }
     }
 
     #brow {
         flex-direction: row-reverse;
+    }
+}
+
+.content-box {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 25px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        padding: 30px;
+        border-top: 1px solid #ceabc1;
+        border-bottom: 1px solid #ceabc1;
+    }
+
+    .button {
+        width: 20rem;
     }
 }
 
