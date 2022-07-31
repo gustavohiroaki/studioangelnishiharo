@@ -45,7 +45,6 @@
 
 #all-services {
     .service {
-        height: 400px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -121,8 +120,8 @@
 
     #all-services {
         .service {
-            height: 100%;
             flex-direction: column;
+            justify-content: center;
 
             & + .service {
                 margin-top: 3rem;
