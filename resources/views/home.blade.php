@@ -54,7 +54,7 @@
     <div class="hero-container">
         <div class="hero-content d-flex flex-column align-items-center">
             <h2>Beleza na medida certa</h2>
-            <button type="button">Conheça Mais</button>
+            <a class="button" href="/services">Conheça Mais</a>
         </div>
     </div>
 

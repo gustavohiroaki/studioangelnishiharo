@@ -11,7 +11,7 @@
             <h2>Studio pensado no seu conforto</h2>
             <p>Cada detalhe foi carinhosamente pensado para você relaxar enquanto realça sua beleza ❤️</p>
 
-            <button>Contate-nos</button>
+            <a class="button" href="https://wa.me/5511971718424" target="_blank">Contate-nos</a>
         </div>
     </section>
 

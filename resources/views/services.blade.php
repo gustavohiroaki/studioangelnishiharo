@@ -9,7 +9,7 @@
             <h2>Sunda Bobra</h2>
             <p>Todos os nossos serviços são feitos com muito carinho para atender suas necessidades ❤️</p>
 
-            <button>Contate-nos</button>
+            <a class="button" href="https://wa.me/5511971718424" target="_blank">Contate-nos</a>
         </div>
         <div id="presentation-image">
             <img src="/assets/img/landing/service-presentation-image.png" alt="Studio Angel Nishiharo">

@@ -48,13 +48,13 @@
 
     <footer>
         <div class="footer-item" id="sns">
-            <a href="#">
+            <a href="https://www.instagram.com/studioangelnishiharo/" target="_blank">
                 <img src="/assets/img/icons/Instagram.svg" alt="Acesse o instagram">
             </a>
-            <a href="#">
+            <a href="https://wa.me/5511971718424" target="_blank">
                 <img src="/assets/img/icons/WhatsApp.svg" alt="Acesse o whatsapp">
             </a>
-            <a href="#">
+            <a href="http://www.facebook.com/angel.nishiharo" target="_blank">
                 <img src="/assets/img/icons/Facebook.svg" alt="Acesse o facebook">
             </a>
         </div>
