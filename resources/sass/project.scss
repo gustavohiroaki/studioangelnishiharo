@@ -32,14 +32,14 @@ button, a.button {
         background-color: rgba(255,255,255);
         border-radius: 25px;
         overflow: scroll;
-        padding: 2rem;
+        padding: 2rem 4rem ;
 
         display: flex;
         align-items: center;
         flex-direction: column;
 
         h2 {
-            margin-bottom: 2rem;
+            margin-bottom: 4rem;
         }
 
         .overlay-product {
@@ -52,6 +52,10 @@ button, a.button {
                 margin-left: 2rem;
             }
         }
+
+        .overlay-product {
+            margin-bottom: 2rem;
+        }
     }
 }
 
@@ -62,5 +66,18 @@ button, a.button {
         .content-box {
             margin-left: 0;
         }
+    }
+}
+
+@media (max-width: 576px) {
+    .overlay-product-image {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .overlay > .overlay-content > .overlay-product > .content-box {
+        width: 100%;
     }
 }
