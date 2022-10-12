@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="/assets/css/project.min.css" />
     <link rel="stylesheet" href="/assets/css/@yield('css').min.css" />
     <link rel="stylesheet" href="/assets/css/footer.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>@yield('title')</title>
 </head>
 
@@ -61,8 +63,9 @@
         <div class="footer-item" id="company">
             <img src="/assets/img/logos/circle-logo.png" alt="Logo Studio Angel Nishiharo">
             <p>
-                © 2022 Angelica Nishiharo Kono. 44.123.778/0001-63
+                © 2022 Angelica Nishiharo Kono.
             </p>
+            <p>44.123.778/0001-63</p>
         </div>
         <div class="footer-item" id="company-info">
             <p>(11) 97171-8424</p>

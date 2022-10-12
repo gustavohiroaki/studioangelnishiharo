@@ -22,7 +22,16 @@ button, a.button {
     right: 0;
     background-color: rgba(0,0,0,.5);
     transition: opacity .5s;
-    
+
+    .close-icon {
+        padding: 20px;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 100;
+        cursor: pointer;
+    }
+
     & > .overlay-content {
         position: fixed;
         top: 1rem;
@@ -46,37 +55,69 @@ button, a.button {
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-bottom: 2rem;
 
             .content-box {
-                width: 80%;
-                margin-left: 2rem;
+                margin: 2rem;
+
+                div.content-text{
+                    width: 40vw;
+                }
             }
         }
 
-        .overlay-product {
-            margin-bottom: 2rem;
+        .overlay-product:nth-child(2n) {
+            flex-direction: row-reverse;
         }
+    }
+}
+
+.content-box {
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 2rem;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+        text-align: center;
+    }
+
+    div.content-text {
+        padding: 30px;
+        border-top: 1px solid #ceabc1;
+        border-bottom: 1px solid #ceabc1;
+
+        ul {
+            margin-top: 1rem;
+        }
+    }
+
+    .button {
+        margin-top: 2rem;
+        width: 20rem;
     }
 }
 
 @media (max-width: 992px) {
-    .overlay > .overlay-content > .overlay-product {
-        flex-direction: column;
-
-        .content-box {
-            margin-left: 0;
-        }
-    }
-}
-
-@media (max-width: 576px) {
     .overlay-product-image {
         img {
-            width: 100%;
+            width: 70vw;
             height: auto;
         }
     }
 
+    .overlay > .overlay-content > .overlay-product {
+        flex-direction: column !important;
+        .content-box > div.content-text{
+            width: 70vw;
+        }
+    }    
+}
+
+@media (max-width: 576px) {
     .overlay > .overlay-content > .overlay-product > .content-box {
         width: 100%;
     }

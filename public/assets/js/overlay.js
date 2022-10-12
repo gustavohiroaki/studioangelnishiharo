@@ -18,8 +18,9 @@ const overlayElements = document.getElementsByClassName("overlay");
 window.addEventListener("load", ()=>{
     for(var i=0;i<overlayElements.length;i++){
         const element = overlayElements[i];
+        const firstElementChild = element.firstElementChild
         const elementId = element.id;
-        element.addEventListener("click", (overlayElement)=>{
+        firstElementChild.addEventListener("click", (overlayElement)=>{
             overlayOff(elementId)
         })
     }

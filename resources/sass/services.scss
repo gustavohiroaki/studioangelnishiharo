@@ -58,30 +58,6 @@
     }
 }
 
-.content-box {
-    background-color: rgba(255, 255, 255, 0.25);
-    border-radius: 25px;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    h3 {
-        text-align: center;
-    }
-
-    p {
-        padding: 30px;
-        border-top: 1px solid #ceabc1;
-        border-bottom: 1px solid #ceabc1;
-    }
-
-    .button {
-        width: 20rem;
-    }
-}
-
 @media (max-width: 992px) {
     #presentation-area {
         display: flex;
@@ -118,7 +94,7 @@
         }
     }
 
-    #all-services {
+    #all-services{
         .service {
             flex-direction: column;
             justify-content: center;
@@ -151,8 +127,8 @@
         }
     }
 
-    .content-box {
-        width: 80%;
+    .content-box > div.content-text{
+        width: 70vw;
     }
 }
 
