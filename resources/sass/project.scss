@@ -61,6 +61,7 @@ button, a.button {
                 margin: 2rem;
 
                 div.content-text{
+                    text-align: center;
                     width: 40vw;
                 }
             }
@@ -85,10 +86,14 @@ button, a.button {
         text-align: center;
     }
 
-    div.content-text {
+    .content-text {
         padding: 30px;
         border-top: 1px solid #ceabc1;
         border-bottom: 1px solid #ceabc1;
+
+        p {
+            text-align: center;
+        }
 
         ul {
             margin-top: 1rem;
