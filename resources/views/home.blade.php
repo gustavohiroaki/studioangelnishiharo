@@ -21,7 +21,7 @@
         </h3>
     </div>
     <section id="hero">
-        <img id="angelica" src="/assets/img/angelica.png" alt="Angélica Nishiharo">
+        <img id="angelica" src="/assets/img/angelica.webp" alt="Angélica Nishiharo">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container d-flex justify-content-between">
                 <a class="navbar-brand" href="#">
