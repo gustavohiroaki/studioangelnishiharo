@@ -58,6 +58,19 @@
 
                     <div class="overlay-product">
                         <div class="overlay-product-image">
+                            <img src="/assets/img/catalog/cilios-volume-russo.png" alt="Cílios volume russo">
+                        </div>
+                        <div class="content-box">
+                            <h3>Volume russo</h3>
+                            <div class="content-text">
+                                É colocado um fio em formato de W, realça o olhar, proporciona volume sutil e natural, não
+                                deixa um olhar marcado.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="overlay-product">
+                        <div class="overlay-product-image">
                             <img src="/assets/img/catalog/cilios-volume-egipcio.png" alt="Cílios volume egípcio">
                         </div>
                         <div class="content-box">
@@ -71,7 +84,7 @@
 
                     <div class="overlay-product">
                         <div class="overlay-product-image">
-                            <img src="/assets/img/catalog/cilios-volume-brasileiro.png" alt="Fazendo os cílios">
+                            <img src="/assets/img/catalog/cilios-volume-brasileiro.png" alt="Cílios volume brasileiro">
                         </div>
                         <div class="content-box">
                             <h3>Volume brasileiro</h3>
@@ -84,7 +97,7 @@
 
                     <div class="overlay-product">
                         <div class="overlay-product-image">
-                            <img src="/assets/img/catalog/cilios-volume-hibrido.png" alt="Fazendo os cílios">
+                            <img src="/assets/img/catalog/cilios-volume-hibrido.png" alt="Cílios volume híbrido">
                         </div>
                         <div class="content-box">
                             <h3>Volume hibrido</h3>
@@ -200,48 +213,48 @@
             </div>
         </div>
         <!-- <div id="make" class="service">
-                                                <div class="service-image">
-                                                    <img src="/assets/img/landing/service-presentation-makes.png" alt="Fazendo a maquiagem na Ana">
-                                                </div>
-                                                <div class="content-box">
-                                                    <h3>Maquiagem</h3>
-                                                    <div class="content-text">
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend euismod.
-                                                        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus
-                                                        tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus, vitae
-                                                        scelerisque sapien sagittis at.
-                                                    </div>
-                                                    <button class="button" onclick="overlayOn('overlay-make')">Catálogo de Maquiagem</button>
-                                                </div>
-                                                <div class="overlay" id="overlay-make">
-                                                    <div class="overlay-content">
-                                                        <h2>Amostras de Maquiagens</h2>
-                                                        <div class="overlay-product">
-                                                            <div class="overlay-product-image">
-                                                                <img src="/assets/img/catalog/make-ana.png" alt="Fazendo os cílios">
-                                                            </div>
-                                                            <div class="content-box">
-                                                                <h3>Maquiagem Festas</h3>
-                                                                <div class="content-text">
-                                                                    Maquiagem voltada para festas.
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                                                    <div class="service-image">
+                                                                                        <img src="/assets/img/landing/service-presentation-makes.png" alt="Fazendo a maquiagem na Ana">
+                                                                                    </div>
+                                                                                    <div class="content-box">
+                                                                                        <h3>Maquiagem</h3>
+                                                                                        <div class="content-text">
+                                                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend euismod.
+                                                                                            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus
+                                                                                            tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus, vitae
+                                                                                            scelerisque sapien sagittis at.
+                                                                                        </div>
+                                                                                        <button class="button" onclick="overlayOn('overlay-make')">Catálogo de Maquiagem</button>
+                                                                                    </div>
+                                                                                    <div class="overlay" id="overlay-make">
+                                                                                        <div class="overlay-content">
+                                                                                            <h2>Amostras de Maquiagens</h2>
+                                                                                            <div class="overlay-product">
+                                                                                                <div class="overlay-product-image">
+                                                                                                    <img src="/assets/img/catalog/make-ana.png" alt="Fazendo os cílios">
+                                                                                                </div>
+                                                                                                <div class="content-box">
+                                                                                                    <h3>Maquiagem Festas</h3>
+                                                                                                    <div class="content-text">
+                                                                                                        Maquiagem voltada para festas.
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
 
-                                                        <div class="overlay-product">
-                                                            <div class="overlay-product-image">
-                                                                <img src="/assets/img/catalog/make-gabi.png" alt="Fazendo os cílios">
-                                                            </div>
-                                                            <div class="content-box">
-                                                                <h3>Maquiagem Social</h3>
-                                                                <div class="content-text">
-                                                                    Maquiagem social
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div> -->
+                                                                                            <div class="overlay-product">
+                                                                                                <div class="overlay-product-image">
+                                                                                                    <img src="/assets/img/catalog/make-gabi.png" alt="Fazendo os cílios">
+                                                                                                </div>
+                                                                                                <div class="content-box">
+                                                                                                    <h3>Maquiagem Social</h3>
+                                                                                                    <div class="content-text">
+                                                                                                        Maquiagem social
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div> -->
     </section>
 @endsection
 
