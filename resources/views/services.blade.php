@@ -107,6 +107,21 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="overlay-product">
+                        <div class="overlay-product-image">
+                            <img src="/assets/img/catalog/cilios-lash-lift.png" alt="Cílios lash lift">
+                        </div>
+                        <div class="content-box">
+                            <h3>Lash Lift</h3>
+                            <div class="content-text">
+                                Procedimento que curva os cílios naturais. É uma técnica que permite praticidade e
+                                naturalidade.Ideal para pessoas que não se adaptaram com a extensão, ou para quem não abre
+                                mão do rímel. No final é realizado coloração para realçar, e um tratamento com nutrição e
+                                hidratação. Não é necessário manutenção, sua durabilidade é de 4 a 6 semanas.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -214,48 +229,48 @@
             </div>
         </div>
         <!-- <div id="make" class="service">
-                                                                                                    <div class="service-image">
-                                                                                                        <img src="/assets/img/landing/service-presentation-makes.png" alt="Fazendo a maquiagem na Ana">
-                                                                                                    </div>
-                                                                                                    <div class="content-box">
-                                                                                                        <h3>Maquiagem</h3>
-                                                                                                        <div class="content-text">
-                                                                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend euismod.
-                                                                                                            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus
-                                                                                                            tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus, vitae
-                                                                                                            scelerisque sapien sagittis at.
-                                                                                                        </div>
-                                                                                                        <button class="button" onclick="overlayOn('overlay-make')">Catálogo de Maquiagem</button>
-                                                                                                    </div>
-                                                                                                    <div class="overlay" id="overlay-make">
-                                                                                                        <div class="overlay-content">
-                                                                                                            <h2>Amostras de Maquiagens</h2>
-                                                                                                            <div class="overlay-product">
-                                                                                                                <div class="overlay-product-image">
-                                                                                                                    <img src="/assets/img/catalog/make-ana.png" alt="Fazendo os cílios">
-                                                                                                                </div>
-                                                                                                                <div class="content-box">
-                                                                                                                    <h3>Maquiagem Festas</h3>
-                                                                                                                    <div class="content-text">
-                                                                                                                        Maquiagem voltada para festas.
-                                                                                                                    </div>
-                                                                                                                </div>
+                                                                                                            <div class="service-image">
+                                                                                                                <img src="/assets/img/landing/service-presentation-makes.png" alt="Fazendo a maquiagem na Ana">
                                                                                                             </div>
+                                                                                                            <div class="content-box">
+                                                                                                                <h3>Maquiagem</h3>
+                                                                                                                <div class="content-text">
+                                                                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien vel purus eleifend euismod.
+                                                                                                                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus
+                                                                                                                    tincidunt turpis iaculis, tempus dolor ornare, molestie lectus. Quisque accumsan enim purus, vitae
+                                                                                                                    scelerisque sapien sagittis at.
+                                                                                                                </div>
+                                                                                                                <button class="button" onclick="overlayOn('overlay-make')">Catálogo de Maquiagem</button>
+                                                                                                            </div>
+                                                                                                            <div class="overlay" id="overlay-make">
+                                                                                                                <div class="overlay-content">
+                                                                                                                    <h2>Amostras de Maquiagens</h2>
+                                                                                                                    <div class="overlay-product">
+                                                                                                                        <div class="overlay-product-image">
+                                                                                                                            <img src="/assets/img/catalog/make-ana.png" alt="Fazendo os cílios">
+                                                                                                                        </div>
+                                                                                                                        <div class="content-box">
+                                                                                                                            <h3>Maquiagem Festas</h3>
+                                                                                                                            <div class="content-text">
+                                                                                                                                Maquiagem voltada para festas.
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
 
-                                                                                                            <div class="overlay-product">
-                                                                                                                <div class="overlay-product-image">
-                                                                                                                    <img src="/assets/img/catalog/make-gabi.png" alt="Fazendo os cílios">
-                                                                                                                </div>
-                                                                                                                <div class="content-box">
-                                                                                                                    <h3>Maquiagem Social</h3>
-                                                                                                                    <div class="content-text">
-                                                                                                                        Maquiagem social
+                                                                                                                    <div class="overlay-product">
+                                                                                                                        <div class="overlay-product-image">
+                                                                                                                            <img src="/assets/img/catalog/make-gabi.png" alt="Fazendo os cílios">
+                                                                                                                        </div>
+                                                                                                                        <div class="content-box">
+                                                                                                                            <h3>Maquiagem Social</h3>
+                                                                                                                            <div class="content-text">
+                                                                                                                                Maquiagem social
+                                                                                                                            </div>
+                                                                                                                        </div>
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div> -->
+                                                                                                        </div> -->
     </section>
 @endsection
 
