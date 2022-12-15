@@ -1,6 +1,6 @@
 @extends('layout.landingcontent')
-@section('css', 'studio')
-@section('title', 'Studio')
+@section('css', $css)
+@section('title', $title)
 
 @section('content')
     <section id="presentation-area">
@@ -18,77 +18,15 @@
     <h2 id="call-to-action-text">Conheça mais o nosso studio!</h2>
 
     <section id="photo-area">
-        <div class="studio-image">
-            <img src="/assets/img/landing/studio1.png" alt="">
-            <div class="overlay">
-                <div class="overlay-text">
+        @foreach ($studio as $image)
+            <div class="studio-image">
+                <img src={{ $image['imageSource'] }} alt={{ $image['imageDescription'] }}>
+                {{-- <div class="image-overlay">
+                <div class="image-overlay-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
+            </div> --}}
             </div>
-        </div>
-        <div class="studio-image">
-            <img src="/assets/img/landing/studio2.png" alt="">
-            <div class="overlay">
-                <div class="overlay-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </div>
-            </div>
-        </div>
-        <div class="studio-image">
-            <img src="/assets/img/landing/studio3.png" alt="">
-            <div class="overlay">
-                <div class="overlay-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </div>
-            </div>
-        </div>
-        <div class="studio-image">
-            <img src="/assets/img/landing/studio4.png" alt="">
-            <div class="overlay">
-                <div class="overlay-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </div>
-            </div>
-        </div>
-        <div class="studio-image">
-            <img src="/assets/img/landing/studio5.png" alt="">
-            <div class="overlay">
-                <div class="overlay-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </div>
-            </div>
-        </div>
-        <div class="studio-image">
-            <img src="/assets/img/landing/studio6.png" alt="">
-            <div class="overlay">
-                <div class="overlay-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </div>
-            </div>
-        </div>
-        <div class="studio-image">
-            <img src="/assets/img/landing/studio7.png" alt="">
-            <div class="overlay">
-                <div class="overlay-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </div>
-            </div>
-        </div>
-        <div class="studio-image">
-            <img src="/assets/img/landing/studio8.png" alt="">
-            <div class="overlay">
-                <div class="overlay-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </div>
-            </div>
-        </div>
-        <div class="studio-image">
-            <img src="/assets/img/landing/studio9.png" alt="">
-            <div class="overlay">
-                <div class="overlay-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </div>
-            </div>
-        </div>
+        @endforeach
     </section>
 @endsection
